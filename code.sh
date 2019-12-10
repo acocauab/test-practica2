@@ -1,4 +1,6 @@
 #!/bin/bash
 
-ls > code.txt
-wc -l code.txt
+FILE=code.txt
+
+ls > $FILE 
+wc -l $FILE
