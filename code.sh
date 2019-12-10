@@ -1,4 +1,4 @@
 #!/bin/bash
 
-ls > code.txt
+ls -l > code.txt
 wc -l code.txt
